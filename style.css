@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3498db; /* Set the desired solid background color for the entire viewport */
+  }
+  
+  #full-viewport-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3498db; /* Set the same solid background color for the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #child-div {
+    background-color: #3498db; /* Set the background color for the child div */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
